@@ -118,10 +118,10 @@ GO
 -- inserting sample data
 INSERT INTO SCH_DATA.SOCIOS (Nombres, Apellidos, Telefono, Email, DiscountCode)
 VALUES
-('Roberto', 'Tamburello', '555.123.4567', 'RTamburello@canvia.com', 10),
-('Ana Maria', 'Galvin', '555.123.4568', 'AMGalvin@canvia.com.pe', 5),
-('Joselito', 'Gutierrez', '555.123.4570', 'JGutierrez@canvia.net', 50),
-('Zheng', 'Mu', '555.123.4569', 'ZMu@canvia.net', 40);
+('Roberto', 'Tamburello', '555.123.4567', 'RTamburello@empresax.com', 10),
+('Ana Maria', 'Galvin', '555.123.4568', 'AMGalvin@empresax.pe', 5),
+('Joselito', 'Gutierrez', '555.123.4570', 'JGutierrez@empresax.net', 50),
+('Zheng', 'Mu', '555.123.4569', 'ZMu@empresax.net', 40);
 GO
 SELECT * FROM SCH_DATA.SOCIOS;
 GO
